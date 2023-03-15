@@ -629,6 +629,24 @@ html{
         align-items: center;
         justify-content: center;
     }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid  div:after{
+        transition: all 5s;
+        transform: rotate(360deg) ;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div:after{
+        transition: all 5s;
+        transform: scale(1.1);
+    }
     #grid div:nth-child(2){
         grid-column-start: 2;
         grid-column-end: 2;
@@ -693,3 +711,4 @@ html{
         background-color: red;
         color: white;
     }
+ }
