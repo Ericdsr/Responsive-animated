@@ -405,6 +405,7 @@ header, footer {background-color: rgb(220, 220, 220);}
     }
     #grid div div {
         border: 2px solid black;
+        background-color: red;
         height: 150px;
         width: 150px;
         border-radius: 50%;
