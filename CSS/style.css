@@ -20,7 +20,9 @@ body {
     background-color: rgb(245, 245, 245);
 }
 header, footer {background-color: rgb(220, 220, 220);}
-
+html{
+    scroll-behavior: smooth;
+}
 
 /**
  * ...
