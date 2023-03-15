@@ -43,6 +43,13 @@ html{
         flex-direction: column;
         width: 100vh;
     }
+    header span:nth-child(4){
+        display: none;
+    }
+    header span:nth-child(2){
+        display: none;
+    }
+
     #top img{
         width: 300px;
         height: 300px;
@@ -106,6 +113,9 @@ html{
     }
     #top header{
         width: 100%;
+    }
+    header span:nth-child(4){
+        display: none;
     }
     #top img{
         width: 300px;
@@ -171,6 +181,10 @@ html{
     }
     #top header{
         display: flex;
+        width: 100%;
+    }
+    header span:nth-child(4){
+        display: none;
     }
     #top h1{
         display: flex;
@@ -280,6 +294,9 @@ html{
         justify-content: center;
         height: 100vh;
         gap: 20px;
+    }
+    header span:nth-child(2){
+        display: none;
     }
     #section-1{
         height: 100vh;
