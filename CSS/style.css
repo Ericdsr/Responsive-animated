@@ -85,16 +85,30 @@ html{
         flex-wrap: wrap;
         gap: 15px;
     }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid div{
+        transition: 5s;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div{
+        transition: 5s;
+    }
     #section-2 div div{
         justify-content: center;
         align-items: center;
         display: flex;
         width: 150px;
         height: 150px;
-        border: 1px gray solid;
         color: black;
         border-radius: 50%;
-        box-shadow: inset 10px 2px 10px gray ;
     }
     #footer{
         height: 200px;
@@ -154,16 +168,30 @@ html{
         justify-content: center;
         align-items: center;
     }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid div{
+        transition: 5s;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div{
+        transition: 5s;
+    }
     #section-2 div div{
         justify-content: center;
         align-items: center;
         display: flex;
         width: 150px;
         height: 150px;
-        border: 1px gray solid;
         color: black;
         border-radius: 50%;
-        box-shadow: inset 10px 2px 10px gray ;
     }
     #footer{
         height: 200px;
@@ -222,7 +250,6 @@ html{
         grid-template-rows: 150px 150px 150px;
     }
     #grid div div {
-        border: 2px solid black;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -234,6 +261,22 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid div{
+        transition: 5s;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div{
+        transition: 5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -325,7 +368,6 @@ html{
         grid-template-rows: 150px 150px 150px;
     }
     #grid div div {
-        border: 2px solid black;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -337,6 +379,22 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid div{
+        transition: 5s;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div{
+        transition: 5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -464,7 +522,6 @@ html{
         grid-template-rows: 150px 150px 150px;
     }
     #grid div div {
-        border: 2px solid black;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -476,6 +533,22 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #grid  div:hover{
+        transition:transform 0.3s;
+        transition-duration: 0.3s;
+        transform: rotate(360deg) ;
+    }
+    #grid div{
+        transition: 5s;
+    }
+    #grid div div:hover{
+        transition: transform 0.5s;
+        transition-duration: 0.5s;
+        transform: scale(1.1);
+    }
+    #grid div div{
+        transition: 5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -616,7 +689,6 @@ html{
         grid-template-rows: 150px 150px 150px;
     }
     #grid div div {
-        border: 2px solid black;
         height: 150px;
         width: 150px;
         border-radius: 50%;
@@ -634,18 +706,16 @@ html{
         transition-duration: 0.3s;
         transform: rotate(360deg) ;
     }
-    #grid  div:after{
-        transition: all 5s;
-        transform: rotate(360deg) ;
+    #grid div{
+        transition: 5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
         transform: scale(1.1);
     }
-    #grid div div:after{
-        transition: all 5s;
-        transform: scale(1.1);
+    #grid div div{
+        transition: 5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
