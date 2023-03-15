@@ -378,6 +378,19 @@ header, footer {background-color: rgb(220, 220, 220);}
         justify-content: center;
         height: 100vh;
         gap: 20px;
+        position: relative;
+    }
+    #top a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
     #section-1{
         height: 100vh;
@@ -386,6 +399,19 @@ header, footer {background-color: rgb(220, 220, 220);}
         align-items: center;
         margin: 15px;
         gap: 15px;
+        position: relative;
+    }
+    #section-1 a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
     #section-1 div{
         height: 300px;
@@ -398,6 +424,19 @@ header, footer {background-color: rgb(220, 220, 220);}
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+    }
+    #section-2 a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
     #grid{
         display: grid;
@@ -469,15 +508,41 @@ header, footer {background-color: rgb(220, 220, 220);}
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
     } 
+    #footer a{
+        top: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+    }
  }
  @media (min-width: 1280px) {
+    #top a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+    }
     #top header{
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
         gap: 20px;
+        position: relative;
     }
     #section-1{
         height: 100vh;
@@ -486,6 +551,19 @@ header, footer {background-color: rgb(220, 220, 220);}
         align-items: center;
         margin: 15px;
         gap: 15px;
+        position: relative;
+    }
+    #section-1 a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
     #section-1 div{
         height: 300px;
@@ -498,6 +576,19 @@ header, footer {background-color: rgb(220, 220, 220);}
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+    }
+    #section-2 a{
+        bottom: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
     #grid{
         display: grid;
@@ -569,4 +660,17 @@ header, footer {background-color: rgb(220, 220, 220);}
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+    }
+    #footer a{
+        top: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
     }
