@@ -88,18 +88,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #section-2 div div{
         justify-content: center;
@@ -171,18 +174,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #section-2 div div{
         justify-content: center;
@@ -265,18 +271,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -383,18 +392,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -537,18 +549,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
@@ -704,18 +719,21 @@ html{
     #grid  div:hover{
         transition:transform 0.3s;
         transition-duration: 0.3s;
-        transform: rotate(360deg) ;
+        transform: scale(1.1);
     }
     #grid div{
-        transition: 5s;
+        transition: 0.5s;
+                transition-duration: 0.5s;
     }
     #grid div div:hover{
         transition: transform 0.5s;
         transition-duration: 0.5s;
-        transform: scale(1.1);
+        transform: rotate(360deg) ;
+        transition-delay: 0.3s;
     }
     #grid div div{
-        transition: 5s;
+        transition: 0.5s;
+        transition-duration: 0.5s;
     }
     #grid div:nth-child(2){
         grid-column-start: 2;
