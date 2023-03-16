@@ -675,20 +675,33 @@ html{
     #section-1 div{
         height: 300px;
         width: 300px;
-        border: 3px solid black; 
+        border: 3px solid black;
     }
     #section-1 div:nth-child(1){
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-image: url(/Img/pexels-dom-gould-325807.jpg);
+        position: absolute;
+        animation: mymove 5s infinite;
     }
+    @keyframes mymove {
+        from {top: 0px;}
+        to {top: 500px;}
+      }
+
     #section-1 div:nth-child(2){
         background-image: url(/Img/pexels-tim-eiden-1222561.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        animation: mymove2 5s infinite;
+        position: absolute;
     }
+    @keyframes mymove2 {
+        from {right: 0px;}
+        to {right: 100%;}
+      }
     #section-1 div:nth-child(2):not(:hover){
         filter: grayscale(100%);
         opacity: 0,75;
