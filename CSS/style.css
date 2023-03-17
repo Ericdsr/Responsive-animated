@@ -31,6 +31,18 @@ html{
  * ... your code here
  * ...
  */
+ #section-1 div:nth-child(1){
+    background-image: url(/Img/pexels-dom-gould-325807.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #section-1 div:nth-child(2){
+    background-image: url(/Img/pexels-tim-eiden-1222561.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
  @media (max-width: 375px) {
     #top{
         display: flex;
